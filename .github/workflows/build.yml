@@ -6,8 +6,8 @@ env:
   Platform: #Any CPU|Win32|x64
   Configuration: Release
   Artifacts: build/$Configuration
-  Solution: ${{github.event.repository.name}}.sln # .
-  Executable: ${{github.event.repository.name}}.exe # *
+  Solution: PianoGame.sln
+  Executable: PianoGame.exe
   
 on:
   push:
